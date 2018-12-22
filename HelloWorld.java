@@ -1,6 +1,7 @@
 class HelloWorld{
 
   public static void main(String[] args){ 
-    System.println("Hello World !");
+      World jupiter = new World("Jupiter");
+      jupiter.hello();    
   }
 }
